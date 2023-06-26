@@ -1,0 +1,40 @@
+窗口相关
+MODKEY + j -> 聚焦到下一个窗口
+MODKEY + k -> 聚焦到上一个窗口
+MODKEY + ShiftMask + j -> 与下一个窗口交换
+MODKEY + ShiftMask + k -> 与上一个窗口交换
+MODKEY + v -> 聚焦到主窗口
+MODKEY + 0 -> 显示所有窗口
+MODKEY + o -> 增加主窗口栈数
+MODKEY + O -> 减少主窗口栈数
+MODKEY + g -> 聚焦到上一个标签
+MODKEY + ; -> 聚焦到下一个标签
+MODKEY + ShiftMask + g -> 移动窗口到上一个标签
+MODKEY + ShiftMask + ; -> 移动窗口到下一个标签
+MODKEY + ' -> togglescratch 1
+MODKEY + ShiftMask -> togglescratch 0
+MODKEY + z -> 增加窗口间距
+MODKEY + x -> 减少窗口间距
+MODKEY + ShiftMask <- -> 移动窗口到左屏幕
+MODKEY + ShiftMask -> -> 移动窗口到右屏幕
+MODKEY + num -> 显示 num 标签中的窗口
+MODKEY + ControlMask + num -> 增加显示 num 标签中的窗口
+MODKEY + ShiftMask + num -> 移动窗口到 num 标签
+MODKEY + ControlMask + ShiftMask + num -> 使当前窗口在 num 标签中显示
+
+标签
+MODKEY + \ -> 切换到上一个标签
+
+布局
+MODKEY + t -> tile 左右布局 左边主栈
+MODKEY + ShiftMask + t -> bstack 上下布局 上面主栈
+MODKEY + y -> sprial 蛇形布局
+MODKEY + ShiftMask + y -> dwindle 漩涡布局
+MODKEY + u ->  deck 只显示两个窗口
+MODKEY + ShiftMask + u -> monocle 只显示一个窗口
+MODKEY + i -> centeredmaster 居中布局 中间主窗口
+MODKEY + ShiftMask + i -> centeredfloatmaster 居中布局 中间主窗口 主窗口悬浮
+
+双屏
+MODKEY + <- -> 聚焦到左屏幕
+MODKEY + -> -> 聚焦到右屏幕

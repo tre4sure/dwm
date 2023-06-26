@@ -161,7 +161,7 @@ static const Key keys[] = {
 
 	{ MODKEY,			XK_Tab,		view,		{0} },
 	/* { MODKEY|ShiftMask,		XK_Tab,		spawn,		SHCMD("") }, */
-	{ MODKEY,			XK_q,		killclient,	{0} },
+	{ MODKEY,			XK_q,		killclient,	{0} },    // 退出
 	{ MODKEY|ShiftMask,		XK_q,		spawn,		{.v = (const char*[]){ "sysact", NULL } } },
 	{ MODKEY,			XK_w,		spawn,		{.v = (const char*[]){ BROWSER, NULL } } },
 	{ MODKEY|ShiftMask,		XK_w,		spawn,		{.v = (const char*[]){ TERMINAL, "-e", "sudo", "nmtui", NULL } } },
@@ -305,9 +305,6 @@ static const Key keys[] = {
 	/* { MODKEY|ShiftMask,             XK_y,      incrovgaps,     {.i = +1 } }, */
 	/* { MODKEY|ShiftMask,             XK_o,      incrovgaps,     {.i = -1 } }, */
 
-  // treasure setmfact
-	{ MODKEY|ControlMask,		XK_h,		setmfact,		{.f = -0.05} },
-	{ MODKEY|ControlMask,		XK_l,		setmfact,		{.f = +0.05} },
 };
 
 /* button definitions */
